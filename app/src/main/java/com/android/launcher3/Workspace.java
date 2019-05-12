@@ -560,7 +560,9 @@ public class Workspace extends SmoothPagedView implements DropTarget, DragSource
 
     public long insertNewWorkspaceScreen(long screenId, int insertIndex) {
         if (mWorkspaceScreens.containsKey(screenId)) {
-            throw new RuntimeException("Screen id " + screenId + " already exists!");
+//            throw new RuntimeException("Screen id " + screenId + " already exists!");//del by jackson may have bug
+            return screenId;//add by jackson have bug
+
         }
 
         //add by linmaoqing 2015-3-19 add custom page 

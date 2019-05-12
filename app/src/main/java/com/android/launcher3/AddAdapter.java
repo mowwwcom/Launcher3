@@ -70,7 +70,7 @@ public class AddAdapter extends BaseAdapter {
         // Create default actions
         Resources res = launcher.getResources();
 
-        mItems.add(new ListItem(res, R.string.group_wallpapers,
+        mItems.add(new ListItem(res, R.string.wallpaper_button_text,/*group_wallpapers*/
                 R.mipmap.ic_launcher_wallpaper, ITEM_WALLPAPER));
     }
 
